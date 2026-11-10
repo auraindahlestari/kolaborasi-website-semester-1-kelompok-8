@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JadiRupiah- EcoCycle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigasi -->
+    <header class="navbar" id="beranda">
+            
+                <!-- Daftar Link Menu -->
+                <nav class="navbar">
+                    <a href="#beranda" class="popup-item">Beranda</a>
+                    <a href="#mapel" class="popup-item">Mapel </a>
+                    <a href="#kontak" class="popup-item">Kirim Pesan</a>
+                    <a href="#datadiri" class="popup-item">Kami</a>
+                    <a href="#akhir" class="popup-item">Akhir</a>
+                </nav>
+   </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            
+            <h1 class="hero-title">
+                Limbah<br>
+                <span class="highlight-text">Jadi Rupiah.</span>
+            </h1>
+
+            <p class="hero-description">Setiap tindakan kecil seperti mengurangi penggunaan barang sekali pakai, memilah sampah, dan mendaur ulang barang bekas akan berdampak besar bagi kehidupan kita.</p>
+
+            <div class="hero-buttons">
+                <a href="ipas.html" class="btn btn-primary">Eksplorasi Karya &rarr;</a>
+                <a href="#datadiri" class="btn btn-secondary">Tentang Kami</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Permasalahan & Solusi -->
+    <section class="content-section">
+        <div class="container">
+            
+            <!-- Blok Permasalahan Utama -->
+            <div class="problem-block">
+                <h2 class="section-title">Apa Itu 3R?</h2>
+                <p class="problem-text">
+                 <p>konsep pengelolaan dan pelestarian lingkungan yang terdiri dari<strong>Reduce,Reuse,dan Rrcycle</strong> untuk menangani sampah</p>   
+                </p>
+            </div>
+
+            <!-- Blok Analisis Penyelesaian Masalah -->
+            <div class="solution-card">
+                <h3 class="card-title">Inovasi yang Dilakukan</h3>
+                <p class="card-text">
+                   Inovasi yang kami lakukan untuk mengurangi penumpukan limbah yaitu dengan memanfaatkan CPU bekas menjadi sound sytem bluetooth,pencacah plastik/kertas,dan penetas telur. Selain itu kami juga mengubah kemasan minuman menjadi tas laptop, bekas wadah CD menjadi rak gantung mini, dan kaleng bekas oli/cat yang besar kami ubah menjadi meja samping (side table). Hal ini kami lakukan sebagai bentuk peduli lingkungan.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Galeri Karya -->
+    <section class="gallery-section" id="mapel">
+        <div class="gallery-container">
+            
+            <!-- Header Galeri -->
+            <div class="gallery-header">
+                <h1>Project Kolaborasi</h1>
+                <br>
+                <p>Bumi tidak butuh janji manis kita,Bumi butuh aksi nyata untuk melindunginya</p>
+            </div>
+
+            <!-- Grid Layout -->
+            <div class="gallery-grid">
+                
+                
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="IPAS.jpg" alt="IPAS" class="card-image">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-item-title">IPAS</h4>
+                        <p class="card-item-text">Menjelajahi ide-ide kreatif dalam mengubah sampah jadi karya bernilai tinggi.</p>
+                        <a href="ipas.html" class="card-link">Lihat detail &nearr;</a>
+                    </div>
+                </div>
+
+                
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="MATEMATIKA.webp" alt="MATEMATIKA" class="card-image">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-item-title">Matematika</h4>
+                        <p class="card-item-text">Memecahkan harga satuan barang dengan metode SPLDV</p>
+                        <a href="mtk.html" class="card-link">Lihat detail &nearr;</a>
+                    </div>
+                </div>
+
+                
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="BAHASA INGGRIS.jpg" alt="BAHASA INGGRIS" class="card-image">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-item-title">Bahasa Inggris</h4>
+                        <p class="card-item-text">How to make a beautiful craft from recycled materials</p>
+                        <a href="inggris.html" class="card-link">Lihat detail &nearr;</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+    <!-- Section Kontak Kami -->
+    
+    <section class="contact-section">
+        <div class="contact-container">
+            
+            <!-- Judul Deskripsi -->
+            <div class="contact-header">
+                <h2 class="contact-title">Kontak Kami</h2>
+                <p class="contact-subtitle">Kalau ada saran dan pertanyaan, langsung aja kirim pesan di bawah ini ya.</p>
+            </div>
+
+            <!-- Formulir Kontak -->
+            <form class="contact-form" onsubmit="return false;" id="kontak">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Nama Kamu" required class="form-input">
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email Kamu" required class="form-input">
+                </div>
+                
+                <div class="form-group">
+                    <textarea id="message" rows="6" placeholder="Tulis pesan kamu di sini..." required class="form-input textarea-input"></textarea>
+                </div>
+                
+                <button type="submit" class="btn-kirim">
+                    Kirim &rarr;
+                </button>
+            </form>
+
+            <!-- Informasi Kontak Tambahan -->
+            <div class="info-card">
+                <h3 class="info-title">Hubungi Kami</h3>
+                <div class="info-item">
+                    <strong>Alamat:</strong>
+                    <p>Jl. Darun Naim Karangduren | SMK NEGERI TENGARAN</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Anggota Kelompok -->
+    <section class="team-section" id="datadiri">
+        <div class="team-container">
+            
+            <h2 class="team-section-title">Anggota Kelompok</h2>
+
+            <div class="team-list">
+                
+                <!-- Anggota 1 -->
+                <div class="member-card">
+                    <div class="member-info">
+                        <div class="avatar-wrapper">
+                            <!-- Ganti placeholder.jpg dengan foto asli -->
+                            <img src="alyamar.jpg" alt="Alya Mar'atussholihan" class="member-avatar">
+                        </div>
+                        <div class="member-detail">
+                            <h4 class="member-name">Alya Mar'atussholihan</h4>
+                            <p class="member-class">X PPLG 2 (07)</p>
+                        </div>
+                    </div>
+                    <div class="member-socials">
+                        <a href="https://www.instagram.com/allyeeyys?rpxt=ZHNoNG5jMzJnc3Jv" class="social-icon" aria-label="Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.link/683gnc" class="social-icon" aria-label="WhatsApp"> <i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:alya.p26015@satamail.may.id" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Anggota 2 -->
+                <div class="member-card">
+                    <div class="member-info">
+                        <div class="avatar-wrapper">
+                            <img src="auraindah.jpg" alt="Aura Indah Lestari" class="member-avatar">
+                        </div>
+                        <div class="member-detail">
+                            <h4 class="member-name">Aura Indah Lestari</h4>
+                            <p class="member-class">X PPLG 2 (09)</p>
+                        </div>
+                    </div>
+                    <div class="member-socials">
+                        <a href="https://www.instagram.com/aurindhlstr_?rpxt=aTluaGZzZTNka2t0" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.link/bvyb93" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:aura.p26031@satamail.may.id" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <!-- Anggota 3 -->
+                <div class="member-card">
+                    <div class="member-info">
+                        <div class="avatar-wrapper">
+                            <img src="VELLY.jpeg" alt="Velly Febrianti" class="member-avatar">
+                        </div>
+                        <div class="member-detail">
+                            <h4 class="member-name">Velly Febrianti</h4>
+                            <p class="member-class">X PPLG 2 (36)</p>
+                        </div>
+                    </div>
+                    <div class="member-socials">
+                        <a href="https://www.instagram.com/vellzz48?xtok=bDFvdmV5bmt6cml3" class="social-icon" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/62895383135930" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="mailto:velly.p26136@satamail.may.id" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer" id="akhir">
+        <div class="footer-container">
+            
+            <!-- Identitas Website -->
+            <div class="footer-brand">
+                <div class="footer-logo-box">
+                    
+                </div>
+                <h3 class="footer-brand-title">Limbah Jadi Rupiah</h3>
+                <p class="footer-brand-desc">
+                    Website edukasi dan inovasi pengelolaan sampah untuk proyek kolaboratif Kelompok 08.
+                </p>
+            </div>
+
+            <!-- Menu Navigasi Singkat -->
+            <div class="footer-nav">
+                <a href="#beranda" class="footer-nav-link">Beranda</a>
+                <a href="#mapel" class="footer-nav-link">Mapel </a>
+                <a href="#kontak" class="footer-nav-link">Kirim Pesan</a>
+                <a href="#datadiri" class="footer-nav-link">Kami</a>
+                <a href="#akhir" class="footer-nav-link">Akhir</a> 
+            </div>
+
+            <!-- Ringkasan Anggota Kelompok -->
+            <div class="footer-team">
+                <h4 class="footer-section-heading">Anggota Kelompok</h4>
+                <div class="footer-member-list">
+                    
+                    <!-- Anggota 1 -->
+                    <div class="footer-member-row">
+                        <span class="footer-member-name">Alya Mar'atussholihan</span>
+                        <div class="footer-member-socials">
+                            <a href="https://www.instagram.com/allyeeyys?rpxt=ZHNoNG5jMzJnc3Jv" class="social-icon" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.link/683gnc" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="mailto:alya.p26015@satamail.may.id" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Anggota 2 -->
+                    <div class="footer-member-row">
+                        <span class="footer-member-name">Aura Indah Lestari</span>
+                        <div class="footer-member-socials">
+                            <a href="https://www.instagram.com/aurindhlstr_?rpxt=aTluaGZzZTNka2t0" class="social-icon" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.link/bvyb93" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="mailto:aura.p26031@satamail.may.id" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Anggota 3 -->
+                    <div class="footer-member-row">
+                        <span class="footer-member-name">Velly Febrianti</span>
+                        <div class="footer-member-socials">
+                            <a href="https://www.instagram.com/vellzz48?xtok=bDFvdmV5bmt6cml3" class="social-icon" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/62895383135930" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="mailto:velly.p26136@satamail.may.id" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Informasi Kontak Lengkap -->
+            <div class="footer-contact">
+                <h4 class="footer-section-heading">Hubungi Kami</h4>
+                <ul class="footer-contact-list">
+                    <li class="footer-contact-item">
+                        <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span>
+                        <p class="contact-text">Jl. Darun Naim Karangduren, Kec. Tengaran 50775<br>Kab. Semarang, Jawa Tengah</p>
+                    </li>
+                    <li class="footer-contact-item">
+                        <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                        <p class="contact-text"><a href="mailto:alya.p26015@satamail.my.id" class="contact-link">alya.p26015@satamail.my.id</a></p>
+                    </li>
+                    <li class="footer-contact-item">
+                        <span class="contact-icon"><i class="fab fa-whatsapp"></i></span>
+                        <p class="contact-text"><a href="https://wa.link/683gnc" target="_blank" class="contact-link">+62 831-6460-6276</a></p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

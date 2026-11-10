@@ -1,0 +1,160 @@
+.product-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+.product-card h4 {
+    margin-top: 0;
+    color: #06241a;
+    font-size: 1.25rem;
+    border-left: 5px solid #27ae60;
+    padding-left: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/* Kotak Ulasan/Review Keunggulan Produk */
+.product-card .review {
+    background: #fffaf0;
+    padding: 18px;
+    border-radius: 6px;
+    font-style: italic;
+    font-size: 0.95rem;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border: 1px dashed #27ae60;
+    color: #01a345;
+}
+
+/* Layout Grid Dua Kolom (Alat vs Langkah) */
+.grid-2col {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+.grid-2col h5 {
+    color: #4a5568;
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 4px;
+}
+
+/* List Alat dan Bahan */
+.item-list {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 0.95rem;
+    color: #4a5568;
+}
+
+.item-list li {
+    margin-bottom: 6px;
+}
+
+/* List Langkah Kerja Pembuatan */
+.step-list {
+    padding-left: 20px;
+    font-size: 0.95rem;
+    color: #4a5568;
+}
+
+.step-list li {
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+.finance-area {
+    background: #f7fafc;
+    border: 1px solid #edf2f7;
+    border-radius: 6px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.finance-area h5 {
+    color: #2d3748;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Desain Tabel Keuangan Minimalis */
+.finance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    background: #ffffff;
+}
+
+.finance-table th, .finance-table td {
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.finance-table th {
+    background-color: #edf2f7;
+    color: #4a5568;
+    font-weight: 600;
+}
+
+.finance-table .total-row td {
+    font-weight: bold;
+    background-color: #f7fafc;
+    border-top: 2px solid #cbd5e0;
+    color: #2b6cb0;
+}
+
+/* Ringkasan Laba Bersih */
+.summary-finance {
+    text-align: right;
+    font-size: 0.95rem;
+    color: #4a5568;
+    padding-top: 5px;
+}
+
+.profit-tag {
+    background-color: #c6f6d5;
+    color: #22543d;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Footer Halaman Bawah */
+.main-footer {
+    text-align: center;
+    color: #a0aec0;
+    font-size: 0.85rem;
+    margin-top: 50px;
+}
+
+
+.btn-beranda {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #27ae60;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  margin-bottom: 40px;
+  margin-left: 600px;
+}
+
+.btn-beranda:hover {
+  background-color: #1e8449;
+}
